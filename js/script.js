@@ -44,11 +44,10 @@ const carrito = []
       alert(mensaje) 
     }
   }
-  
-  function calcularTotal() {
+    
+    function calcularTotal() {
     const total = carrito.reduce((suma, item) => suma + item.precio, 0) 
-    return total 
-  }
+    return total}
   
   function finalizarCompra() {
     const total = calcularTotal() 
